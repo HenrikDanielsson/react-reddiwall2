@@ -1,3 +1,3 @@
 # A new begining @ 146North!
 
-Boilerplate for new projects.
+A new masonry image viewer for reddit.

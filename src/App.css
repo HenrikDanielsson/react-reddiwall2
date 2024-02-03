@@ -26,8 +26,7 @@ p {
 	margin: 0 0 1.2em;
 }
 .App {
-	max-width: 400px;
-	padding: 0 1em;
+	width: 80vw;
 	cursor: default;
 	margin: auto;
 }
@@ -56,12 +55,20 @@ main p:nth-child(1) {
 main p:nth-last-child(1) {
 	text-align: end;
 }
+
+main .control {
+	margin: 0 auto;
+}
+.masonry {
+	width: 100%;
+}
 .input {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: space-between;
 }
+
 input,
 button {
 	width: auto;
@@ -110,4 +117,7 @@ footer {
 }
 .pointer {
 	cursor: pointer;
+}
+.blur {
+	filter: blur(20px);
 }
